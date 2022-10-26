@@ -28,6 +28,7 @@
     </tr>
   <% end %>
 </table>
+<%= button_to('add', new_score_url(data.id), method: :get) %>
 Average = <%= @avg %>
 <br>
 Max subject is <%= @mxsub %>
